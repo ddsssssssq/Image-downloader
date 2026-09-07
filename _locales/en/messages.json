@@ -1,0 +1,21 @@
+{
+  "extName": { "message": "Image downloader" },
+  "extDescription": { "message": "Find and download images from the current page." },
+  "actionTitle": { "message": "Download page images" },
+  "appTitle": { "message": "Image downloader" },
+  "rescan": { "message": "Rescan page" },
+  "selectAll": { "message": "Select all" },
+  "imageCount": { "message": "$1 images · $2 selected" },
+  "imageAlt": { "message": "Image $1" },
+  "previewUnavailable": { "message": "Preview unavailable" },
+  "scanning": { "message": "Scanning page…" },
+  "unsupportedPage": { "message": "This page cannot be scanned. Open a normal HTTP or HTTPS page." },
+  "scanFailed": { "message": "Unable to scan this page." },
+  "noImages": { "message": "No images found on this page." },
+  "downloadSelected": { "message": "Download selected" },
+  "downloadAll": { "message": "Download all" },
+  "downloading": { "message": "Starting $1 downloads…" },
+  "downloadFinished": { "message": "Started $1 downloads." },
+  "downloadFinishedWithErrors": { "message": "Started $1 downloads; $2 could not be downloaded." },
+  "downloadFailed": { "message": "Unable to start downloads." }
+}
