@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image downloader Privacy Policy</title>
+  <style>
+    body { max-width: 760px; margin: 40px auto; padding: 0 20px; color: #172033; font: 16px/1.6 system-ui, sans-serif; }
+    h1, h2 { line-height: 1.25; }
+    .notice { padding: 12px 16px; border-left: 4px solid #2463eb; background: #eef4ff; }
+  </style>
+</head>
+<body>
+  <h1>Image downloader Privacy Policy</h1>
+  <p><strong>Effective date:</strong> September 7, 2026</p>
+  <p><strong>Applies to:</strong> Image downloader version 1.2.1 and later</p>
+
+  <div class="notice">
+    Questions and support are handled through the public GitHub Issues page linked below.
+  </div>
+
+  <h2>Purpose</h2>
+  <p>Image downloader helps a user identify image resources on the active webpage, preview them, select images, and start downloads. The extension works only after the user invokes it from the browser toolbar.</p>
+
+  <h2>Information handled</h2>
+  <p>After the user invokes a scan, the extension temporarily reads the active webpage's DOM and image-related resources, including image URLs, responsive image URLs, lazy-loading attributes, CSS background image URLs, image metadata, and image dimensions. The active page URL may also be available to the browser as part of the user-requested tab operation.</p>
+  <p>The extension stores only the selected interface-language preference in <code>chrome.storage.local</code>. It does not store scanned page content, image pixels, page history, or download URLs in extension storage.</p>
+
+  <h2>How information is used</h2>
+  <p>Page information is processed locally in the browser to display the floating selection panel, apply filters and sorting, perform the optional deep scan, and start downloads selected by the user. Download requests are made through the browser's Downloads API to the image URLs chosen by the user.</p>
+
+  <h2>Sharing and servers</h2>
+  <p>The extension does not operate an extension-owned server and does not send page content, image URLs, or language preferences to an extension-owned server. It does not sell data, use data for advertising, use an analytics service, or use an AI service. The browser and the original image host may process network requests according to their own policies and the browser's normal security and referrer behavior.</p>
+
+  <h2>Retention and control</h2>
+  <p>Scanned page information is kept in memory while the floating panel or page session uses it and is discarded when the panel or page context is closed. The language preference remains in local extension storage until it is changed, removed with the extension, or cleared through browser extension data controls. Download history and downloaded files are controlled by Chrome.</p>
+
+  <h2>Limitations</h2>
+  <p>Some images cannot be previewed or downloaded because they require authentication, use hotlink protection, have expired URLs, are inside closed Shadow DOM, or exist only as pixels in a Canvas. Browser-internal pages are not supported.</p>
+
+  <h2>Contact</h2>
+  <p>Support page: <a href="https://github.com/ddsssssssq/Image-downloader/issues">https://github.com/ddsssssssq/Image-downloader/issues</a></p>
+
+  <h2>Changes</h2>
+  <p>When the extension's data handling changes, this policy will be updated before or when the changed version is distributed. The effective date above will be updated with each material change.</p>
+</body>
+</html>
