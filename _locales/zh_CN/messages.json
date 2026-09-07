@@ -1,0 +1,21 @@
+{
+  "extName": { "message": "Image downloader" },
+  "extDescription": { "message": "识别并下载当前网页上的图片。" },
+  "actionTitle": { "message": "下载网页图片" },
+  "appTitle": { "message": "Image downloader" },
+  "rescan": { "message": "重新扫描页面" },
+  "selectAll": { "message": "全选" },
+  "imageCount": { "message": "共 $1 张 · 已选 $2 张" },
+  "imageAlt": { "message": "图片 $1" },
+  "previewUnavailable": { "message": "无法预览" },
+  "scanning": { "message": "正在扫描页面…" },
+  "unsupportedPage": { "message": "无法扫描此页面，请打开普通的 HTTP 或 HTTPS 网页。" },
+  "scanFailed": { "message": "扫描页面失败。" },
+  "noImages": { "message": "当前页面没有找到图片。" },
+  "downloadSelected": { "message": "下载选中图片" },
+  "downloadAll": { "message": "下载全部图片" },
+  "downloading": { "message": "正在开始下载 $1 张图片…" },
+  "downloadFinished": { "message": "已开始下载 $1 张图片。" },
+  "downloadFinishedWithErrors": { "message": "已开始下载 $1 张图片，另有 $2 张无法下载。" },
+  "downloadFailed": { "message": "无法开始下载。" }
+}
